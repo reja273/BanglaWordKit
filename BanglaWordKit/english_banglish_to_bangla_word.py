@@ -3,27 +3,36 @@ import os
 import re
 
 class English_banglish_ToBangla:
-    def __init__(self, dictionary_path=None):
-        if dictionary_path is None:
-            base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-            dictionary_path = os.path.join(base_dir, 'BanglaWordKit\data', 'banglish_to_bangla_word_dataset.json')
-            
-        self.dictionary_path = dictionary_path
-        self.data = self._load_data()
+    # ডাটা মেমোরিতে ক্যাশ করে রাখার জন্য
+    _cached_data = None
 
-    def _load_data(self):
+    @staticmethod
+    def _get_data_path():
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        return os.path.join(current_dir, 'data', 'banglish_to_bangla_word_dataset.json')
+
+    @classmethod
+    def _load_data(cls):
+        # যদি আগে থেকেই ডাটা লোড করা থাকে, তবে সরাসরি সেটা রিটার্ন করবে
+        if cls._cached_data is not None:
+            return cls._cached_data
+
+        dictionary_path = cls._get_data_path()
         try:
-            if os.path.exists(self.dictionary_path):
-                with open(self.dictionary_path, 'r', encoding='utf-8') as f:
-                    return json.load(f)
+            if os.path.exists(dictionary_path):
+                with open(dictionary_path, 'r', encoding='utf-8') as f:
+                    cls._cached_data = json.load(f)
             else:
-                print(f"not found dataset: {self.dictionary_path}")
-                return {"level_1": [], "level_2": [], "level_3": []}
+                print(f"Warning: Dataset not found at {dictionary_path}")
+                cls._cached_data = {"level_1": [], "level_2": [], "level_3": []}
         except Exception as e:
-            print(f"problem to load data: {e}")
-            return {"level_1": [], "level_2": [], "level_3": []}
+            print(f"Problem to load data: {e}")
+            cls._cached_data = {"level_1": [], "level_2": [], "level_3": []}
+            
+        return cls._cached_data
 
-    def convert(self, text, level=1):
+    @classmethod
+    def convert(cls, text, level=1):
         """
         level=1: সাধারণ চ্যাটিং শব্দ (Hi -> শুভেচ্ছা)
         level=2: দাপ্তরিক শব্দ (Office -> দপ্তর)
@@ -32,21 +41,27 @@ class English_banglish_ToBangla:
         if not text:
             return text
 
+        data = cls._load_data()
+
         # level wise (Cumulative selection)
-        rules = self.data.get('level_1', [])
+        rules = data.get('level_1', [])
         if level >= 2:
-            rules += self.data.get('level_2', [])
+            rules += data.get('level_2', [])
         if level == 3:
-            rules += self.data.get('level_3', [])
+            rules += data.get('level_3', [])
  
-        rules = sorted(rules, key=lambda x: len(x['english']), reverse=True)
+        rules = sorted(rules, key=lambda x: len(x.get('english', '')), reverse=True)
 
         converted_text = text
 
         for item in rules:
-            eng_word = item['english']
-            bn_word = item['bangla']
-
+            eng_word = item.get('english')
+            bn_word = item.get('bangla')
+            
+            if not eng_word or not bn_word:
+                continue
+            
+            # Word boundary দিয়ে রিপ্লেস করা
             if re.match(r'^[a-zA-Z0-9]+$', eng_word):
                 pattern = re.compile(r'\b' + re.escape(eng_word) + r'\b', re.IGNORECASE)
                 converted_text = pattern.sub(bn_word, converted_text)

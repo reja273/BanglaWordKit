@@ -3,7 +3,7 @@ import os
 
 setup(
     name="BanglaWordKit",  
-    version="0.1.2",
+    version="0.1.5",
     packages=find_packages(),
     include_package_data=True,  
     package_data={

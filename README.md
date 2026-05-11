@@ -1,7 +1,7 @@
-# 🇧🇩 BanglaWordKit (v0.1.2)
+# 🇧🇩 BanglaWordKit (v0.1.5)
 **A Comprehensive NLP Toolkit for Bangla Text Normalization, Standardization, and Conversion.**
 
-`BanglaWordKit` is a robust Python library designed to simplify Bangla Natural Language Processing (NLP) tasks. It provides ready-to-use tools for text normalization, slang removal, dialect conversion, and seamless integration between English and Bangla characters.
+`BanglaWordKit` is a robust Python library designed to simplify Bangla Natural Language Processing (NLP) tasks. It provides ready-to-use tools for text normalization, slang removal(Normalizer), dialect conversion, and seamless integration between English and Bangla characters.
 
 ---
 
@@ -46,7 +46,7 @@ BNAGLA_NLP_LIBRARY/
 └── README.md                            # Documentation
 
 
-🛠 Installation
+##🛠 Installation
 You can install the library directly from PyPI (once published):
  pip install BanglaWordKit
 
@@ -174,7 +174,9 @@ Contributions are welcome! If you want to add new words to the dataset or improv
 Distributed under the MIT License. See LICENSE for more information.
 
 ✉️ Contact
-Your Name - GitHub :reja273
+Your Name: Rejaul Karim
+GitHub :reja273
+Email: reja86305@gmail.com
 
 Author(Just creator)
 ~Rejaul Karim

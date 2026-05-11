@@ -2,39 +2,52 @@ import json
 import os
 import re
 
-class banglaSlangStandardizer:
-    def __init__(self, dictionary_path=None):
-        if dictionary_path is None:
-            base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-            dictionary_path = os.path.join(base_dir, 'data', 'slang_words_dataset.json')
-            
-        self.dictionary_path = dictionary_path
-        self.rules = self._load_data()
+class banglaSlangStandardizer: 
+    _cached_rules = None
 
-    def _load_data(self):
+    @staticmethod
+    def _get_data_path():
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        return os.path.join(current_dir, 'data', 'slang_words_dataset.json')
+
+    @classmethod
+    def _load_data(cls):
+        
+        if cls._cached_rules is not None:
+            return cls._cached_rules
+
+        dictionary_path = cls._get_data_path()
         try:
-            if os.path.exists(self.dictionary_path):
-                with open(self.dictionary_path, 'r', encoding='utf-8') as f:
-                    return json.load(f)
+            if os.path.exists(dictionary_path):
+                with open(dictionary_path, 'r', encoding='utf-8') as f:
+                    rules = json.load(f) 
+                    if isinstance(rules, list):
+                        cls._cached_rules = sorted(rules, key=lambda x: len(x.get('slang', '')), reverse=True)
+                    else:
+                        cls._cached_rules = []
             else:
-                print(f"Slang dataset not found at {self.dictionary_path}")
-                return []
+                print(f"Warning: Slang dataset not found at {dictionary_path}")
+                cls._cached_rules = []
         except Exception as e:
             print(f"Error loading slang data: {e}")
-            return []
+            cls._cached_rules = []
+            
+        return cls._cached_rules
 
-    def slang_standardize(self, text):
+    @classmethod
+    def slang_standardize(cls, text):
         if not text:
             return text
             
+        rules = cls._load_data()
         cleaned_text = text
- 
-        sorted_rules = sorted(self.rules, key=lambda x: len(x['slang']), reverse=True)
         
-        for item in sorted_rules:
-            slang = item['slang']
-            clean_word = item['clean']
-            pattern = re.compile(r'(^|\W)' + re.escape(slang) + r'($|\W)', re.UNICODE)
-            cleaned_text = pattern.sub(r'\g<1>' + clean_word + r'\g<2>', cleaned_text)
-            
+        for item in rules:
+            slang = item.get('slang')
+            clean_word = item.get('clean')
+            if slang and clean_word:
+               
+                pattern = re.compile(r'(^|\W)' + re.escape(slang) + r'($|\W)', re.UNICODE)
+                cleaned_text = pattern.sub(r'\g<1>' + clean_word + r'\g<2>', cleaned_text)
+                
         return cleaned_text
