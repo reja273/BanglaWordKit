@@ -1,0 +1,280 @@
+{
+    "level_1": [
+        {
+            "foreign": "রাস্তা",
+            "bangla": "পথ"
+        },
+        {
+            "foreign": "ঠান্ডা",
+            "bangla": "শীতল"
+        },
+        {
+            "foreign": "নাস্তা",
+            "bangla": "জলখাবার"
+        },
+        {
+            "foreign": "খারাপ",
+            "bangla": "মন্দ"
+        },
+        {
+            "foreign": "জরুরি",
+            "bangla": "আবশ্যক"
+        },
+        {
+            "foreign": "আস্তে",
+            "bangla": "ধীরে"
+        },
+        {
+            "foreign": "জায়গা",
+            "bangla": "স্থান"
+        },
+        {
+            "foreign": "বন্ধু",
+            "bangla": "মিত্র"
+        },
+        {
+            "foreign": "দুশমন",
+            "bangla": "শত্রু"
+        },
+        {
+            "foreign": "আওয়াজ",
+            "bangla": "শব্দ"
+        },
+        {
+            "foreign": "জবাব",
+            "bangla": "উত্তর"
+        },
+        {
+            "foreign": "জলদি",
+            "bangla": "দ্রুত"
+        },
+        {
+            "foreign": "খুশি",
+            "bangla": "আনন্দ"
+        },
+        {
+            "foreign": "আরাম",
+            "bangla": "স্বস্তি"
+        },
+        {
+            "foreign": "দেরি",
+            "bangla": "বিলম্ব"
+        },
+        {
+            "foreign": "দরজা",
+            "bangla": "দ্বার"
+        },
+        {
+            "foreign": "শুরু",
+            "bangla": "আরম্ভ"
+        },
+        {
+            "foreign": "গরিব",
+            "bangla": "দরিদ্র"
+        },
+        {
+            "foreign": "খবর",
+            "bangla": "সংবাদ"
+        },
+        {
+            "foreign": "শরম",
+            "bangla": "লজ্জা"
+        },
+        {
+            "foreign": "সাফ",
+            "bangla": "পরিষ্কার"
+        },
+        {
+            "foreign": "শহর",
+            "bangla": "নগর"
+        },
+        {
+            "foreign": "রোজ",
+            "bangla": "প্রতিদিন"
+        },
+        {
+            "foreign": "গরম",
+            "bangla": "উষ্ণ"
+        },
+        {
+            "foreign": "আসল",
+            "bangla": "প্রকৃত"
+        },
+        {
+            "foreign": "নকল",
+            "bangla": "কৃত্রিম"
+        },
+        {
+            "foreign": "ভুল",
+            "bangla": "ত্রুটি"
+        },
+        {
+            "foreign": "শেষ",
+            "bangla": "সমাপ্ত"
+        }
+    ],
+    "level_2": [
+        {
+            "foreign": "বরখাস্ত",
+            "bangla": "পদচ্যুত"
+        },
+        {
+            "foreign": "মকদ্দমা",
+            "bangla": "মামলা"
+        },
+        {
+            "foreign": "জরিমানা",
+            "bangla": "অর্থদণ্ড"
+        },
+        {
+            "foreign": "কারাগার",
+            "bangla": "বন্দিশালা"
+        },
+        {
+            "foreign": "ইস্তফা",
+            "bangla": "পদত্যাগ"
+        },
+        {
+            "foreign": "হেফাজত",
+            "bangla": "রক্ষণাবেক্ষণ"
+        },
+        {
+            "foreign": "ফয়সালা",
+            "bangla": "মীমাংসা"
+        },
+        {
+            "foreign": "মঞ্জুর",
+            "bangla": "অনুমোদিত"
+        },
+        {
+            "foreign": "দস্তখত",
+            "bangla": "স্বাক্ষর"
+        },
+        {
+            "foreign": "মক্কেল",
+            "bangla": "বিচারপ্রার্থী"
+        },
+        {
+            "foreign": "আদালত",
+            "bangla": "বিচারালয়"
+        },
+        {
+            "foreign": "এজলাস",
+            "bangla": "বিচারাসন"
+        },
+        {
+            "foreign": "তদন্ত",
+            "bangla": "অনুসন্ধান"
+        },
+        {
+            "foreign": "জমানত",
+            "bangla": "আমানত"
+        },
+        {
+            "foreign": "তারিখ",
+            "bangla": "দিনাঙ্ক"
+        },
+        {
+            "foreign": "হাজির",
+            "bangla": "উপস্থিত"
+        },
+        {
+            "foreign": "ইনসাফ",
+            "bangla": "ন্যায়বিচার"
+        },
+        {
+            "foreign": "হাকিম",
+            "bangla": "বিচারক"
+        },
+        {
+            "foreign": "দোকান",
+            "bangla": "বিপণি"
+        },
+        {
+            "foreign": "বাজার",
+            "bangla": "হাট"
+        },
+        {
+            "foreign": "ওকিল",
+            "bangla": "আইনজীবী"
+        },
+        {
+            "foreign": "উকিল",
+            "bangla": "আইনজীবী"
+        },
+        {
+            "foreign": "কাগজ",
+            "bangla": "লিখনপত্র"
+        },
+        {
+            "foreign": "রায়",
+            "bangla": "সিদ্ধান্ত"
+        }
+    ],
+    "level_3": [
+        {
+            "foreign": "পাউরুটি",
+            "bangla": "সেঁকা রুটি"
+        },
+        {
+            "foreign": "দুনিয়া",
+            "bangla": "জগৎ"
+        },
+        {
+            "foreign": "আলমারি",
+            "bangla": "কাষ্ঠাধার"
+        },
+        {
+            "foreign": "তোয়ালে",
+            "bangla": "অঙ্গমার্জনী"
+        },
+        {
+            "foreign": "কেরানি",
+            "bangla": "লিপিকার"
+        },
+        {
+            "foreign": "সাবান",
+            "bangla": "মলিনানাশক"
+        },
+        {
+            "foreign": "বালতি",
+            "bangla": "জলপাত্র"
+        },
+        {
+            "foreign": "আনারস",
+            "bangla": "বহুফল"
+        },
+        {
+            "foreign": "গামলা",
+            "bangla": "পাত্র"
+        },
+        {
+            "foreign": "চশমা",
+            "bangla": "উপনেত্র"
+        },
+        {
+            "foreign": "জুতা",
+            "bangla": "পাদুকা"
+        },
+        {
+            "foreign": "চাবি",
+            "bangla": "কুঞ্জিকা"
+        },
+        {
+            "foreign": "কুলি",
+            "bangla": "ভারবাহক"
+        },
+        {
+            "foreign": "চাকু",
+            "bangla": "কর্তনী"
+        },
+        {
+            "foreign": "কবর",
+            "bangla": "সমাধি"
+        },
+        {
+            "foreign": "লাশ",
+            "bangla": "মৃতদেহ"
+        }
+    ]
+}

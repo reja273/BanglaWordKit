@@ -1,0 +1,472 @@
+{
+    "level_1": [
+        {
+            "english": "থ্যাঙ্ক ইউ",
+            "bangla": "ধন্যবাদ"
+        },
+        {
+            "english": "thank you",
+            "bangla": "ধন্যবাদ"
+        },
+        {
+            "english": "থ্যাংকস",
+            "bangla": "ধন্যবাদ"
+        },
+        {
+            "english": "brother",
+            "bangla": "ভাই"
+        },
+        {
+            "english": "ব্রাদার",
+            "bangla": "ভাই"
+        },
+        {
+            "english": "ফ্রেন্ড",
+            "bangla": "বন্ধু"
+        },
+        {
+            "english": "awesome",
+            "bangla": "চমৎকার"
+        },
+        {
+            "english": "comment",
+            "bangla": "মন্তব্য"
+        },
+        {
+            "english": "message",
+            "bangla": "বার্তা"
+        },
+        {
+            "english": "হ্যালো",
+            "bangla": "শুভেচ্ছা"
+        },
+        {
+            "english": "thanks",
+            "bangla": "ধন্যবাদ"
+        },
+        {
+            "english": "please",
+            "bangla": "দয়া করে"
+        },
+        {
+            "english": "friend",
+            "bangla": "বন্ধু"
+        },
+        {
+            "english": "হ্যাপি",
+            "bangla": "খুশি"
+        },
+        {
+            "english": "কমেন্ট",
+            "bangla": "মন্তব্য"
+        },
+        {
+            "english": "টেক্সট",
+            "bangla": "বার্তা"
+        },
+        {
+            "english": "hello",
+            "bangla": "শুভেচ্ছা"
+        },
+        {
+            "english": "বিদায়",
+            "bangla": "বিদায়"
+        },
+        {
+            "english": "sorry",
+            "bangla": "দুঃখিত"
+        },
+        {
+            "english": "প্লিজ",
+            "bangla": "দয়া করে"
+        },
+        {
+            "english": "প্লিজ",
+            "bangla": "দয়া করে"
+        },
+        {
+            "english": "buddy",
+            "bangla": "বন্ধু"
+        },
+        {
+            "english": "ব্যাড",
+            "bangla": "খারাপ"
+        },
+        {
+            "english": "happy",
+            "bangla": "খুশি"
+        },
+        {
+            "english": "স্যাড",
+            "bangla": "মন খারাপ"
+        },
+        {
+            "english": "angry",
+            "bangla": "রাগান্বিত"
+        },
+        {
+            "english": "check",
+            "bangla": "যাচাই"
+        },
+        {
+            "english": "পোস্ট",
+            "bangla": "প্রকাশ"
+        },
+        {
+            "english": "share",
+            "bangla": "ভাগ"
+        },
+        {
+            "english": "শেয়ার",
+            "bangla": "ভাগ"
+        },
+        {
+            "english": "মেসেজ",
+            "bangla": "বার্তা"
+        },
+        {
+            "english": "okay",
+            "bangla": "ঠিক আছে"
+        },
+        {
+            "english": "ইয়েস",
+            "bangla": "হ্যাঁ"
+        },
+        {
+            "english": "ব্রো",
+            "bangla": "ভাই"
+        },
+        {
+            "english": "বাডি",
+            "bangla": "বন্ধু"
+        },
+        {
+            "english": "cool",
+            "bangla": "দারুণ"
+        },
+        {
+            "english": "অসাম",
+            "bangla": "চমৎকার"
+        },
+        {
+            "english": "nice",
+            "bangla": "সুন্দর"
+        },
+        {
+            "english": "নাইস",
+            "bangla": "সুন্দর"
+        },
+        {
+            "english": "এংরি",
+            "bangla": "রাগান্বিত"
+        },
+        {
+            "english": "wait",
+            "bangla": "অপেক্ষা"
+        },
+        {
+            "english": "ওয়েট",
+            "bangla": "অপেক্ষা"
+        },
+        {
+            "english": "call",
+            "bangla": "আহ্বান"
+        },
+        {
+            "english": "post",
+            "bangla": "প্রকাশ"
+        },
+        {
+            "english": "like",
+            "bangla": "পছন্দ"
+        },
+        {
+            "english": "লাইক",
+            "bangla": "পছন্দ"
+        },
+        {
+            "english": "text",
+            "bangla": "বার্তা"
+        },
+        {
+            "english": "হাই",
+            "bangla": "শুভেচ্ছা"
+        },
+        {
+            "english": "bye",
+            "bangla": "বিদায়"
+        },
+        {
+            "english": "সরি",
+            "bangla": "দুঃখিত"
+        },
+        {
+            "english": "plz",
+            "bangla": "দয়া করে"
+        },
+        {
+            "english": "ওকে",
+            "bangla": "ঠিক আছে"
+        },
+        {
+            "english": "ওকে",
+            "bangla": "ঠিক আছে"
+        },
+        {
+            "english": "yes",
+            "bangla": "হ্যাঁ"
+        },
+        {
+            "english": "bro",
+            "bangla": "ভাই"
+        },
+        {
+            "english": "কুল",
+            "bangla": "দারুণ"
+        },
+        {
+            "english": "bad",
+            "bangla": "খারাপ"
+        },
+        {
+            "english": "sad",
+            "bangla": "মন খারাপ"
+        },
+        {
+            "english": "চেক",
+            "bangla": "যাচাই"
+        },
+        {
+            "english": "hi",
+            "bangla": "শুভেচ্ছা"
+        },
+        {
+            "english": "ok",
+            "bangla": "ঠিক আছে"
+        },
+        {
+            "english": "কল",
+            "bangla": "আহ্বান"
+        }
+    ],
+    "level_2": [
+        {
+            "english": "ইউনিভার্সিটি",
+            "bangla": "বিশ্ববিদ্যালয়"
+        },
+        {
+            "english": "university",
+            "bangla": "বিশ্ববিদ্যালয়"
+        },
+        {
+            "english": "স্টুডেন্ট",
+            "bangla": "শিক্ষার্থী"
+        },
+        {
+            "english": "স্যালারি",
+            "bangla": "বেতন"
+        },
+        {
+            "english": "প্রজেক্ট",
+            "bangla": "প্রকল্প"
+        },
+        {
+            "english": "college",
+            "bangla": "মহাবিদ্যালয়"
+        },
+        {
+            "english": "meeting",
+            "bangla": "সভা"
+        },
+        {
+            "english": "project",
+            "bangla": "প্রকল্প"
+        },
+        {
+            "english": "রেজাল্ট",
+            "bangla": "ফলাফল"
+        },
+        {
+            "english": "student",
+            "bangla": "শিক্ষার্থী"
+        },
+        {
+            "english": "teacher",
+            "bangla": "শিক্ষক"
+        },
+        {
+            "english": "office",
+            "bangla": "দপ্তর"
+        },
+        {
+            "english": "school",
+            "bangla": "বিদ্যালয়"
+        },
+        {
+            "english": "ওয়ার্ক",
+            "bangla": "কাজ"
+        },
+        {
+            "english": "salary",
+            "bangla": "বেতন"
+        },
+        {
+            "english": "এক্সাম",
+            "bangla": "পরীক্ষা"
+        },
+        {
+            "english": "result",
+            "bangla": "ফলাফল"
+        },
+        {
+            "english": "স্কুল",
+            "bangla": "বিদ্যালয়"
+        },
+        {
+            "english": "মিটিং",
+            "bangla": "সভা"
+        },
+        {
+            "english": "টিচার",
+            "bangla": "শিক্ষক"
+        },
+        {
+            "english": "class",
+            "bangla": "শ্রেণি"
+        },
+        {
+            "english": "ক্লাস",
+            "bangla": "শ্রেণি"
+        },
+        {
+            "english": "অফিস",
+            "bangla": "দপ্তর"
+        },
+        {
+            "english": "কলেজ",
+            "bangla": "মহাবিদ্যালয়"
+        },
+        {
+            "english": "work",
+            "bangla": "কাজ"
+        },
+        {
+            "english": "exam",
+            "bangla": "পরীক্ষা"
+        },
+        {
+            "english": "job",
+            "bangla": "চাকরি"
+        },
+        {
+            "english": "জব",
+            "bangla": "চাকরি"
+        }
+    ],
+    "level_3": [
+        {
+            "english": "কম্পিউটার",
+            "bangla": "গণনযন্ত্র"
+        },
+        {
+            "english": "computer",
+            "bangla": "গণনযন্ত্র"
+        },
+        {
+            "english": "ল্যাপটপ",
+            "bangla": "বহনযোগ্য গণনযন্ত্র"
+        },
+        {
+            "english": "মার্কেট",
+            "bangla": "বাজার"
+        },
+        {
+            "english": "mobile",
+            "bangla": "মুঠোফোন"
+        },
+        {
+            "english": "মোবাইল",
+            "bangla": "মুঠোফোন"
+        },
+        {
+            "english": "laptop",
+            "bangla": "বহনযোগ্য গণনযন্ত্র"
+        },
+        {
+            "english": "bottle",
+            "bangla": "বোতল"
+        },
+        {
+            "english": "market",
+            "bangla": "বাজার"
+        },
+        {
+            "english": "phone",
+            "bangla": "দূরভাষ"
+        },
+        {
+            "english": "chair",
+            "bangla": "কেদারা"
+        },
+        {
+            "english": "চেয়ার",
+            "bangla": "কেদারা"
+        },
+        {
+            "english": "table",
+            "bangla": "মেজি"
+        },
+        {
+            "english": "টেবিল",
+            "bangla": "মেজি"
+        },
+        {
+            "english": "train",
+            "bangla": "রেলগাড়ি"
+        },
+        {
+            "english": "ট্রেন",
+            "bangla": "রেলগাড়ি"
+        },
+        {
+            "english": "room",
+            "bangla": "কক্ষ"
+        },
+        {
+            "english": "বোটল",
+            "bangla": "বোতল"
+        },
+        {
+            "english": "shop",
+            "bangla": "দোকান"
+        },
+        {
+            "english": "ফোন",
+            "bangla": "দূরভাষ"
+        },
+        {
+            "english": "bus",
+            "bangla": "গণপরিবহন"
+        },
+        {
+            "english": "বাস",
+            "bangla": "গণপরিবহন"
+        },
+        {
+            "english": "car",
+            "bangla": "গাড়ি"
+        },
+        {
+            "english": "কার",
+            "bangla": "গাড়ি"
+        },
+        {
+            "english": "রুম",
+            "bangla": "কক্ষ"
+        },
+        {
+            "english": "শপ",
+            "bangla": "দোকান"
+        }
+    ]
+}
